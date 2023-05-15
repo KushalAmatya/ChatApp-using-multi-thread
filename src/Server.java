@@ -33,7 +33,7 @@ public class Server {
                     String msg = br.readLine();
                     if (msg.equals("exit")){
                         System.out.println("CLient chat terminated");
-                        socket.close();
+//                        socket.close();
                         break;
                     }
                     System.out.println("Client: "+ msg);
